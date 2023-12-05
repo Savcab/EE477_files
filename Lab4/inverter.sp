@@ -6,7 +6,7 @@
 ** Circuit Netlist
 
 ** Supply and Input Sources
-VSUP VDD 0 1.0
+VSUP X 0 'VSS/2'
 VPIN IN  0 PULSE 0 1.0 1ns 10ps 10ps 2ns 4ns
 
 ** Transistors
