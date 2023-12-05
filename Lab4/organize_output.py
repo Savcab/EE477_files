@@ -9,7 +9,6 @@ with open('output.lis', 'r') as file:
         for line in input_data:
             if len(line) != 0 and line[0] != '.' and line[0] != '+' and line[0] != "\n":
                 final_result.append(line[:-1])
-    print(final_result)
 
     # Read in data 
     counter = 0
