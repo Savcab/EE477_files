@@ -22,7 +22,7 @@ C1 Z 0 C=10f
 .IC V(Z) = 'VDD'
 
 ** Analysis Setup
-.TRAN 0.001u 800u sweep data = mydata
+.TRAN 1u 200u sweep data = mydata
 
 ** Control Information
 .OPTION POST BRIEF NOMOD PROBE MEASOUT
