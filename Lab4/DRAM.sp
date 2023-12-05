@@ -2,6 +2,7 @@
 
 .include CMOSP.inc
 .include CMOSN.inc
+.include input_data.txt
 
 .PARAM VDD = 0.8
 
@@ -21,7 +22,7 @@ C1 Z 0 C=10f
 .IC V(Z) = 'VDD'
 
 ** Analysis Setup
-.TRAN 0.001u 800u
+.TRAN 0.001u 800u sweep data = mydata
 
 ** Control Information
 .OPTION POST BRIEF NOMOD PROBE MEASOUT
