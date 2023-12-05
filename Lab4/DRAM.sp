@@ -15,7 +15,7 @@ VG Y 0 0
 M1 Z Y X VDD CMOSN L=45n W=120n
 
 ** Capacitor
-C1 Z 0 C=1f
+C1 Z 0 C=0.1f
 
 ** Initial condition
 .IC V(Z) = 'VDD'
