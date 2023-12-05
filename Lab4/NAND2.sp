@@ -3,11 +3,10 @@
 .include CMOSP.inc
 .include CMOSN.inc
 
-.PARAM VDD = 0.8
-
 ** Circuit Netlist
 
 ** Supply and Input Sources
+V_SUP VDD 0 1
 VPIN_A A 0 PULSE 0 1.0 1ns 10ps 10ps 4ns 8ns
 VPIN_B B 0 PULSE 0 1.0 1ns 10ps 10ps 2ns 4ns
 
