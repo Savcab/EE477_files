@@ -8,8 +8,8 @@
 ** Circuit Netlist
 
 ** Supply and Input Sources
-VPIN A 0 PULSE 0 1.0 1ns 10ps 10ps 4ns 8ns
-VPIN B 0 PULSE 0 1.0 1ns 10ps 10ps 2ns 4ns
+VPIN_A A 0 PULSE 0 1.0 1ns 10ps 10ps 4ns 8ns
+VPIN_B B 0 PULSE 0 1.0 1ns 10ps 10ps 2ns 4ns
 
 ** Transistors
 M_PU_A OUT A VDD CMOSP L=45n W=180n
