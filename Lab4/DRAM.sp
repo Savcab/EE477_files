@@ -21,7 +21,7 @@ C1 Z 0 C=10f
 .IC V(Z) = 'VDD'
 
 ** Analysis Setup
-.TRAN 0.001u 200u
+.TRAN 0.001u 800u
 
 ** Control Information
 .OPTION POST BRIEF NOMOD PROBE MEASOUT
